@@ -1,8 +1,6 @@
 # Finding Maximum Planar Subset of chords a set of Νets in a channel  
 
-## Introduction  
-
-This repository is about the project assignment of NTUST EE Algorithm taught by Shao-Yun Fang. Aim to impliment the algorithm shown below.
+This PA aims to impliment the algorithm shown below.
 
 **Algorithm**：_Finding a maximum planar subset of a set of nets in a channel, IEEE TCAD, 1987_
 **Programming Language**： C++
