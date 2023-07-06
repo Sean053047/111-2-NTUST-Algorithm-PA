@@ -39,11 +39,7 @@ void Write_file(int num_chords, std::vector< std::vector<int> > & chords, std::s
     }else{
         result_file << num_chords <<std::endl ;
         for (int i = 0 ;  i< chords.size() ; ++i){
-            if (chords[i][0] >1000){
-                result_file << chords[i][0] << "\t" << chords[i][1] << std::endl;
-            }else{
-                result_file << chords[i][0]  << "\t\t" << chords[i][1]<< std::endl;
-            }
+            result_file << chords[i][0] << " " << chords[i][1] << std::endl;
         }
         result_file.close();
     }
